@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.publicacion{
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+    height: 600px;
+}
+
+.publi-head{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo h4,.titulo p{
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.publi-body{
+    width: 500px;
+    height: 300px
+}
+
+img{
+    object-fit: cover;
+    width: 450px;
+    height: 300px
+}
+
+.publi-footer{
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
